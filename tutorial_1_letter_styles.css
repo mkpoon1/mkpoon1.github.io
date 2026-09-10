@@ -1,1 +1,22 @@
+    body {
+        font: 1.2em / 1.5 system-ui;
+      }
 
+      .sender-column {
+        text-align: right;
+      }
+      .center-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+      
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
