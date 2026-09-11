@@ -1,3 +1,16 @@
+body {
+    text-align: left;
+    font: 1.2em;
+}
+
+h1 {
+    font-size: 1.5em;
+    }
+
+h2 {
+    font-size: 1.3em;
+    }
+
 
 .center-image {
     display: block;
@@ -29,16 +42,4 @@
     background-color: #DBEAF0;
 }
 
-.letter-body {
-    text-align: left;
-    font: 1.2em;
-}
 
-
-h1 {
-    font-size: 1.5em;
-    }
-
-h2 {
-    font-size: 1.3em;
-    }
