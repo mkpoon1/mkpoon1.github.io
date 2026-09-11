@@ -21,7 +21,7 @@ body {
 }
 
 .recipient {
-    text-align: right;
+    text-align: left;
     font-style: italic;
     font: 0.8em;
 }
