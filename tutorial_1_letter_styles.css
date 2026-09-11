@@ -1,24 +1,36 @@
-    body {
-        font: 1.2em / 1.5 system-ui;
-      }
+body {
+    font: 1.2em / 1.5 system-ui;
+}
 
-      .sender-column {
-        text-align: right;
-        background-color: #DBEAF0;
-        font: 1em;
-      }
-      .center-image {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        height: auto;
-      }
-      
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
 
-      h1 {
-        font-size: 1.5em;
-      }
+.sender-address {
+    text-align: right;
+    background-color: #DBEAF0;
+    font: 1em;
+}
 
-      h2 {
-        font-size: 1.3em;
-      }
+.letter-date {
+    text-align: left;
+    font-style: italic;
+}
+
+.recipient {
+    text-align: right;
+    font-style: italic;
+    font: 0.8em;
+}
+
+
+h1 {
+    font-size: 1.5em;
+    }
+
+h2 {
+    font-size: 1.3em;
+    }
