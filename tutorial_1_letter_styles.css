@@ -4,6 +4,8 @@
 
       .sender-column {
         text-align: right;
+        background-color: #DBEAF0;
+        font: 1em;
       }
       .center-image {
         display: block;
