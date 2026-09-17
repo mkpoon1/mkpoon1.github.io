@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INST630 - Homework 2: Component</title>
+
+  <style>
+  .component {
+    display: grid;
+    grid-template-areas:
+      'image header' 
+      'image date' 
+      'image main' ;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat (3, 1fr);
+  }
+  
+  .image{
+    grid-area: image;
+  }
+
+  .header{
+    grid-area: header;
+  }
+  .date{
+    grid-area: date;
+  }
+  .main{
+    grid-area: main;
+  }
+  
+  </style>
+</head>
+
+<body>
+
+  <div class="component">
+    <div class="image">
+       <img src="hero.png" alt="hero clipart" class="center-image" width= "96"></div>
+    <div class="header">header</div>
+    <div class="grid-item">date</div>
+    <div class="grid-item">main</div>
+  </div>
+
+</body>
+</html>
