@@ -4,29 +4,47 @@
     <title>INST630 - Homework 2: Component</title>
 
   <style>
+
+
   .component {
     display: grid;
     grid-template-areas:
       'image header' 
       'image date' 
       'image main' ;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat (3, 1fr);
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: auto auto, 1fr;
+    padding:20px;
+    border: 1px solid #333;
+    column-gap: 20px;
+ 
   }
   
   .image{
     grid-area: image;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 0.5px solid #333;
+
   }
 
   .header{
     grid-area: header;
+    align-items: flex-start;
+    font-size: 2rem; /* Double the font size */
+    font-weight: bold;
   }
   .date{
     grid-area: date;
+    align-items: flex-start;
   }
   .main{
     grid-area: main;
+    align-items: flex-end;
+    margin-top: 25px;
   }
+
   
   </style>
 </head>
@@ -35,11 +53,14 @@
 
   <div class="component">
     <div class="image">
-       <img src="hero.png" alt="hero clipart" class="center-image"></div>
+       <img src="/hero.png" alt="hero clipart" width="100%"></div>
     <div class="header">header</div>
-    <div class="grid-item">date</div>
-    <div class="grid-item">main</div>
+    <div class="date">July 6, 2026</div>
+    <div class="main">this is a whole lot of text to see what it looks like when i keep typing and there is no movement in the falkjrewij iowerjiweojwonk weoijrweoj </div>
   </div>
 
 </body>
 </html>
+
+
+
