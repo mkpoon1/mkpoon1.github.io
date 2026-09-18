@@ -126,7 +126,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  /* YOUR CODE: display flex, gap, wrap behavior */
 }
 
 .list-item {
@@ -135,7 +134,6 @@ body {
   border-radius: 0.5rem;
   border: 1px solid var(--color-border);
   flex-basis: 160px;
-  /* YOUR CODE: flex-basis or width for sizing */
 }
 
 /* ===========================================
