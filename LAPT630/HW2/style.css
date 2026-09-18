@@ -187,3 +187,45 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* ================================================== */
+
+  .component {
+    display: grid;
+    width: 500px;
+    grid-template-areas:
+      'image header' 
+      'image date' 
+      'image main' ;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: auto auto, 1fr;
+    padding:20px;
+    border: 1px solid #333;
+    column-gap: 20px;
+ 
+  }
+  
+  .image{
+    grid-area: image;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 0.5px solid #333;
+
+  }
+
+  .header{
+    grid-area: header;
+    align-items: flex-start;
+    font-size: 2rem; /* Double the font size */
+    font-weight: bold;
+  }
+  .date{
+    grid-area: date;
+    align-items: flex-start;
+  }
+  .main{
+    grid-area: main;
+    align-items: flex-end;
+    margin-top: 25px;
+  }
+
