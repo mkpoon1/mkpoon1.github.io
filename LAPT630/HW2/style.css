@@ -58,9 +58,13 @@ body {
 
 .page-layout {
   display: grid;
-  /* YOUR CODE: grid-template-areas */
-  /* YOUR CODE: grid-template-columns */
-  /* YOUR CODE: grid-template-rows */
+    grid-template-areas:
+      'header' 
+      'title' 
+      'content' 
+      'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 1fr 2ch 1fr;
   min-height: 100vh;
   gap: var(--spacing-md);
 }
@@ -72,24 +76,24 @@ body {
    =========================================== */
 
 .site-header {
-  /* YOUR CODE: grid-area */
+  grid-area: header;
   background: var(--color-surface);
   padding: var(--spacing-md) var(--spacing-lg);
   border-bottom: 1px solid var(--color-border);
 }
 
 .hero-section {
-  /* YOUR CODE: grid-area */
+  grid-area: title;
   padding: var(--spacing-xl);
 }
 
 .list-section {
-  /* YOUR CODE: grid-area */
+  grid-area: content;
   padding: var(--spacing-lg);
 }
 
 .site-footer {
-  /* YOUR CODE: grid-area */
+  grid-area: footer;
   background: var(--color-text);
   color: var(--color-bg);
   padding: var(--spacing-lg);
@@ -110,6 +114,8 @@ body {
 
 .nav-links {
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
   gap: var(--spacing-md);
   list-style: none;
   padding: 0;
@@ -117,6 +123,9 @@ body {
 
 /* Make list items flow horizontally on large screens */
 .list-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   /* YOUR CODE: display flex, gap, wrap behavior */
 }
 
@@ -125,6 +134,7 @@ body {
   padding: var(--spacing-lg);
   border-radius: 0.5rem;
   border: 1px solid var(--color-border);
+  flex-basis: 160px;
   /* YOUR CODE: flex-basis or width for sizing */
 }
 
@@ -138,6 +148,12 @@ body {
 
 @media (max-width: 48rem) {
   .page-layout {
+    grid-template-areas:
+      'header' 
+      'title' 
+      'content' 
+      'footer';
+    grid-template-columns: 1fr;
     /* YOUR CODE: redefine grid-template-areas */
     /* YOUR CODE: single column layout */
   }
