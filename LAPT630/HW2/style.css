@@ -64,7 +64,7 @@ body {
       'content' 
       'footer';
     grid-template-columns: 1fr;
-    grid-template-rows: repeat 1fr 2ch 1fr;
+    grid-template-rows: repeat 1fr 2ch auto;
   min-height: 100vh;
   gap: var(--spacing-md);
 }
