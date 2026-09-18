@@ -152,8 +152,7 @@ body {
       'content' 
       'footer';
     grid-template-columns: 1fr;
-    /* YOUR CODE: redefine grid-template-areas */
-    /* YOUR CODE: single column layout */
+    grid-template-areas: none;
   }
   
   .list-section {
