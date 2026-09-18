@@ -158,10 +158,11 @@ body {
   }
   
   .list-section {
-    /* YOUR CODE: change flex-direction if needed */
+    flex-direction: column;
   }
   
   .list-item {
+     width: 100%;
     /* YOUR CODE: full width on mobile */
   }
 }
