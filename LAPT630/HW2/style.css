@@ -97,7 +97,7 @@ body {
   background: var(--color-text);
   color: var(--color-bg);
   padding: var(--spacing-lg);
-  mid-width: 0;
+  min-width: 0;
   /* NOTE: Footer should not exceed main content width */
 }
 
