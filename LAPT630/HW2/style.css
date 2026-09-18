@@ -154,7 +154,7 @@ body {
       'footer';
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
-    grid-template-areas: none;
+ 
   }
   
   .list-section {
