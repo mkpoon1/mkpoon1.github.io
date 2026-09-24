@@ -28,7 +28,7 @@
     padding-bottom: 1rem;
 }
 
-x.sender-info {
+.sender-info {
     text-align: right;
     background-color: #f8f9fa;
     padding: 1rem;
@@ -36,7 +36,7 @@ x.sender-info {
     margin-bottom: 1rem;
 }
 
-x.letter-date {
+.letter-date {
     text-align: right;
     font-style: italic;
     color: #666;
