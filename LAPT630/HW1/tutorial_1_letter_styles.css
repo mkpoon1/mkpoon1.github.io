@@ -28,6 +28,11 @@
     padding-bottom: 1rem;
 }
 
+.center-image {
+  display: block;
+  margin: 0 auto;
+}
+
 .sender-info {
     text-align: right;
     background-color: #f8f9fa;
