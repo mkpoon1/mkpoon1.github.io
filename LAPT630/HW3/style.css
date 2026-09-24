@@ -6,7 +6,7 @@
 
 body {
     font-family: Alice, serif;
-    background-color: #ff00ff;
+    background-color: #F5F0E8;
     margin: 0;
     padding: 0;
 }
@@ -26,14 +26,14 @@ body {
 }
 
 .recipe-title {
-    color: red;
+    color: #885a89;
     font-size: 40px;
-    text-decoration: underline;
+  /*  text-decoration: underline; */
 }
 
 .recipe-meta {
-    background-color: orange;
-    border: 2px dashed purple;
+    background-color: #D1B490;
+    border: 2px dashed #D1B490;;
 }
 
 .recipe-description {
