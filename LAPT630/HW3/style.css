@@ -1,9 +1,11 @@
 /* INTENTIONALLY UGLY STARTER STYLES */
 /* These styles are very, very ugly. */
 /* Time to make them attractive, legible, and usable */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Sacramento&display=swap');
 
 body {
-    font-family: Times, serif;
+    font-family: Alice, serif;
     background-color: #ff00ff;
     margin: 0;
     padding: 0;
@@ -17,6 +19,7 @@ body {
 }
 
 .recipe-header {
+    font-family: Sacramento, serif;
     background-color: lime;
     border: 3px dotted blue;
     text-align: center;
