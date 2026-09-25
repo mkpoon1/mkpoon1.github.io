@@ -44,8 +44,9 @@ body {
 }
 
 .ingredients-section {
-    background-color: pink;
-    border: 5px solid brown;
+    color: #302A30;
+    background-color: #D1B490   ;
+    border: 5px solid #8AA8A1;
 }
 
 .ingredients-list {
@@ -54,7 +55,7 @@ body {
 
 .ingredients-list li {
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #302A30;
     margin: 2px;
     padding: 1px;
 }
