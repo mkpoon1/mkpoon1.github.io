@@ -20,13 +20,13 @@ body {
 
 .recipe-header {
     font-family: Sacramento, serif;
-    background-color: lime;
-    border: 3px dotted blue;
+    background-color: #885A89;
+    border: 3px dotted #885A89;
     text-align: center;
 }
 
 .recipe-title {
-    color: #885a89;
+    color: #F5F0E8;
     font-size: 40px;
   /*  text-decoration: underline; */
 }
