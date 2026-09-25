@@ -32,7 +32,8 @@ body {
 }
 
 .recipe-meta {
-    background-color: #D1B490;
+    background-color: #F5F0E8;
+    color: #885A89;
     border: 2px dashed #D1B490;;
 }
 
@@ -54,19 +55,19 @@ body {
 }
 
 .ingredients-list li {
-    background-color: white;
-    border: 1px solid #302A30;
+    background-color: #F5F0E8;
+    border: 1px solid #EE7B30;
     margin: 2px;
     padding: 1px;
 }
 
 .instructions-section {
-    background-color: lightgray;
-    border: 3px solid navy;
+    background-color: #8AA8A1;
+    border: 3px solid #885A89;
 }
 
 .instruction-step {
-    background-color: beige;
+    background-color: #D1B490;
     border: 2px solid maroon;
     margin: 3px;
 }
