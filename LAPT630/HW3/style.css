@@ -120,7 +120,8 @@ body {
 .recipe-footer {
     background-color: #885A89;
     text-align: right;
-    font-size: 6px;
+    font-size: 8px;
+    color: #F5f0E8;
 }
 
 .recipe-image {
