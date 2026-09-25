@@ -63,13 +63,32 @@ body {
 
 .instructions-section {
     background-color: #8AA8A1;
-   /* border: 3px solid #885A89; */
+    border: 5px solid #D1B490;
+}
+
+.instructions-list {
+    list-style: none;
+    counter-reset: steps;
+    padding: 0;
 }
 
 .instruction-step {
+    counter-increment: steps;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
     background-color: #F5f0E8;
     border: 2px solid #885A89;
-    margin: 3px;
+    margin-bottom: 16px;
+}
+
+.instruction-step::before {
+    content: counter(steps) ".";
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    color: #EE7B30;
+    margin-right: 8px;
 }
 
 .instruction-step::marker {
