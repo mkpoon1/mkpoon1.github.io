@@ -38,7 +38,7 @@ body {
 }
 
 .meta-item {
-    color: #EE7B30;
+    color: #B94F18;
 }
 
 .recipe-description {
@@ -55,7 +55,7 @@ body {
 }
 
 .ingredients-section h2 {
-    color: #EE7B30;
+    color: #B94F18;
     font-family: Sacramento, serif;
     font-size: 20px;
 }
@@ -66,7 +66,7 @@ body {
 
 .ingredients-list li {
     background-color: #F5F0E8;
-    border: 1px solid #EE7B30;
+    border: 1px solid #B94F18;
     margin: 2px;
     padding: 1px;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .instructions-section h2 {
-    color: #EE7B30;
+    color: #B94F18;
     font-family: Sacramento, serif;
     font-size: 20px;
 }
@@ -103,12 +103,12 @@ body {
     display: flex;
     align-items: center;   
     justify-content: center;
-    color: #EE7B30;
+    color: #B94F18;
     margin-right: 8px;
 }
 
 .instruction-step::marker {
-    color: #EE7B30;
+    color: #B94F18;
     font-weight: bold;
 }
 
