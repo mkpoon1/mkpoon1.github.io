@@ -60,11 +60,11 @@ body {
     font-size: 40px;
 }
 
-.ingredients-section ul {
+.ingredients-list {
     list-style: none;
 }
 
-.ingredients-section li {
+.ingredients-list li {
     background-color: #F5F0E8;
     border: 1px solid #B94F18;
     margin: 2px;
@@ -82,13 +82,13 @@ body {
     font-size: 40px;
 }
 
-.instructions-section ol {
+.instructions-list {
     list-style: none;
     counter-reset: steps;
     padding: 0;
 }
 
-.instructions-section li {
+.instructions-list li {
     counter-increment: steps;
     display: flex;
     align-items: flex-start;
@@ -98,7 +98,7 @@ body {
     margin-bottom: 16px;
 }
 
-.instructions-section li::before {
+.instructions-list li::before {
     content: counter(steps) ".";
     display: flex;
     align-items: center;   
@@ -107,12 +107,12 @@ body {
     margin-right: 8px;
 }
 
-.instructions-section li::marker {
+.instructions-list li::marker {
     color: #B94F18;
     font-weight: bold;
 }
 
-.instructions-section strong {
+.instructions-list strong {
    font-size: inherit;
    font-weight: bold;
 }
