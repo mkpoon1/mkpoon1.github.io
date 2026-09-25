@@ -96,7 +96,7 @@ body {
     font-weight: bold;
 }
 
-instruction-step strong {
+.instruction-step strong {
    font-size: inherit;
    font-weight: bold;
 }
