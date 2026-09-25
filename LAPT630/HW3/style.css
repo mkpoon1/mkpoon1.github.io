@@ -88,7 +88,7 @@ body {
     padding: 0;
 }
 
-.instruction-section li {
+.instructions-section li {
     counter-increment: steps;
     display: flex;
     align-items: flex-start;
@@ -98,7 +98,7 @@ body {
     margin-bottom: 16px;
 }
 
-.instruction-section li::before {
+.instructions-section li::before {
     content: counter(steps) ".";
     display: flex;
     align-items: center;   
@@ -107,12 +107,12 @@ body {
     margin-right: 8px;
 }
 
-.instruction-section li::marker {
+.instructions-section li::marker {
     color: #B94F18;
     font-weight: bold;
 }
 
-.instruction-step strong {
+.instructions-section strong {
    font-size: inherit;
    font-weight: bold;
 }
