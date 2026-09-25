@@ -37,6 +37,10 @@ body {
     border: 2px dashed #D1B490;;
 }
 
+.meta-item {
+    color: #EE7B30;
+}
+
 .recipe-description {
     background-color: #8AA8A1;
     font-style: italic;
@@ -98,12 +102,12 @@ body {
 
 .instruction-step strong {
    font-size: inherit;
-   font-family: inherit;
    font-weight: bold;
 }
 
 .recipe-footer {
     background-color: #885A89;
+    color: #F5F0E8;
     text-align: right;
     font-size: 6px;
 }
