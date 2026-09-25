@@ -4,59 +4,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Sacramento&display=swap');
 
+:root {
+    --purple: #885A89;
+    --terracotta: #B94F18;
+    --cream: #F5F0E8;
+    --teal: #8AA8A1;
+    --brown: #D1B490;
+
+    --body-font: "Alice", serif;
+    --display-font: "Sacramento", cursive;
+}
+
 body {
-    font-family: Alice, serif;
-    background-color: #F5F0E8;
+    font-family: var(--body-font);
+    background-color: var(--cream);
     margin: 0;
     padding: 0;
 }
 
 .recipe-container {
    /* background-color: yellow; */
-    border: 10px solid #D1B490;
+    border: 10px solid var(--brown);
     margin: 10px;
     padding: 5px;
 }
 
 .recipe-header {
-    font-family: Sacramento, serif;
-    background-color: #885A89;
-    border: 3px dotted #885A89;
+    font-family: var(--body-font);
+    background-color: var(--purple);
+    border: 3px dotted var(--purple);
     text-align: center;
 }
 
 .recipe-title {
-    color: #F5F0E8;
+    color: var(--cream);
     font-size: 50px;
   /*  text-decoration: underline; */
 }
 
 .recipe-meta {
-    background-color: #F5F0E8;
-    color: #885A89;
-    border: 2px dashed #D1B490;;
+    background-color: var(--cream);
+    color: var(--purple);
+    border: 2px dashed var(--brown);
 }
 
 .recipe-meta p {
-    color: #B94F18;
+    color: var(--terracotta);
 }
 
 .recipe-description {
-    background-color: #8AA8A1;
+    background-color: var(--teal);
     font-style: italic;
     font-size: 10px;
-    color: #302A30;
 }
 
 .ingredients-section {
-    color: #302A30;
-    background-color: #D1B490   ;
-    border: 5px solid #8AA8A1;
+    background-color: var(--brown);
+    border: 5px solid var(--teal);
 }
 
 .ingredients-section h2 {
-    color: #B94F18;
-    font-family: Sacramento, serif;
+    color: var(--terracotta);
+    font-family: var(--display-font);
     font-size: 40px;
 }
 
@@ -65,20 +74,20 @@ body {
 }
 
 .ingredients-list li {
-    background-color: #F5F0E8;
-    border: 1px solid #B94F18;
+    background-color: var(--cream);
+    border: 1px solid var(--terracotta);
     margin: 2px;
     padding: 1px;
 }
 
 .instructions-section {
-    background-color: #8AA8A1;
-    border: 5px solid #D1B490;
+    background-color: var(--teal);
+    border: 5px solid var(--brown);
 }
 
 .instructions-section h2 {
-    color: #B94F18;
-    font-family: Sacramento, serif;
+    color: var(--terracotta);
+    font-family: var(--display-font);
     font-size: 40px;
 }
 
@@ -93,8 +102,8 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 12px;
-    background-color: #F5f0E8;
-    border: 2px solid #885A89;
+    background-color: var(--cream);
+    border: 2px solid var(--purple);
     margin-bottom: 16px;
 }
 
@@ -103,12 +112,12 @@ body {
     display: flex;
     align-items: center;   
     justify-content: center;
-    color: #B94F18;
+    color: var(--terracotta);
     margin-right: 8px;
 }
 
 .instructions-list li::marker {
-    color: #B94F18;
+    color: var(--terracotta);
     font-weight: bold;
 }
 
@@ -118,10 +127,10 @@ body {
 }
 
 .recipe-footer {
-    background-color: #885A89;
+    background-color: var(--purple);
     text-align: right;
     font-size: 8px;
-    color: #F5f0E8;
+    color: var(--cream);
 }
 
 .recipe-image {
@@ -130,7 +139,3 @@ body {
     border: 2px solid black;
 }
 
-* {
-    margin: 2px;
-    padding: 1px;
-}
