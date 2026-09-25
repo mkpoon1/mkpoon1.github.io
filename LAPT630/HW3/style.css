@@ -61,7 +61,7 @@ body {
 
 .recipe-description {
     background-color: var(--teal);
-    border: 5px solid var(--cream);
+    border: 5px solid var(--brown);
     font-style: italic;
     font-size: 18px;
 }
