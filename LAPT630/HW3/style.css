@@ -27,7 +27,7 @@ body {
 
 .recipe-title {
     color: #F5F0E8;
-    font-size: 40px;
+    font-size: 50px;
   /*  text-decoration: underline; */
 }
 
@@ -57,7 +57,7 @@ body {
 .ingredients-section h2 {
     color: #B94F18;
     font-family: Sacramento, serif;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .ingredients-list {
@@ -79,7 +79,7 @@ body {
 .instructions-section h2 {
     color: #B94F18;
     font-family: Sacramento, serif;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .instructions-list {
