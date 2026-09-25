@@ -62,7 +62,7 @@ body {
 .recipe-description {
     background-color: var(--teal);
     font-style: italic;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .ingredients-section {
@@ -136,7 +136,7 @@ body {
 .recipe-footer {
     background-color: var(--purple);
     text-align: right;
-    font-size: 8px;
+    font-size: 16px;
     color: var(--cream);
 }
 
