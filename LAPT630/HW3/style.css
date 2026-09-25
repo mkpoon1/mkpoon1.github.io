@@ -63,14 +63,20 @@ body {
 
 .instructions-section {
     background-color: #8AA8A1;
-    border: 3px solid #885A89;
+   /* border: 3px solid #885A89; */
 }
 
 .instruction-step {
-    background-color: #D1B490;
-    border: 2px solid maroon;
+    background-color: #F5f0E8;
+    border: 2px solid #885A89;
     margin: 3px;
 }
+
+.instruction-step::marker {
+    color: #EE7B30;
+    font-weight: bold;
+}
+
 
 .recipe-footer {
     background-color: violet;
