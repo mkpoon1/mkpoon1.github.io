@@ -30,7 +30,7 @@ body {
 }
 
 .recipe-header {
-    font-family: var(--body-font);
+    font-family: var(--display-font);
     background-color: var(--purple);
     border: 3px dotted var(--purple);
     text-align: center;
