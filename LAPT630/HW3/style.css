@@ -54,6 +54,12 @@ body {
     border: 5px solid #8AA8A1;
 }
 
+.ingredients-section h2 {
+    color: #EE7B30;
+    font-family: Sacramento, serif;
+    font-size: 20px;
+}
+
 .ingredients-list {
     list-style: none;
 }
@@ -68,6 +74,12 @@ body {
 .instructions-section {
     background-color: #8AA8A1;
     border: 5px solid #D1B490;
+}
+
+.instructions-section h2 {
+    color: #EE7B30;
+    font-family: Sacramento, serif;
+    font-size: 20px;
 }
 
 .instructions-list {
@@ -107,7 +119,6 @@ body {
 
 .recipe-footer {
     background-color: #885A89;
-    color: #F5F0E8;
     text-align: right;
     font-size: 6px;
 }
