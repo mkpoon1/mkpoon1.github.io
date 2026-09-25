@@ -82,13 +82,13 @@ body {
     font-size: 40px;
 }
 
-.instructions-list {
+.instructions-section ol {
     list-style: none;
     counter-reset: steps;
     padding: 0;
 }
 
-.instruction-step {
+.instruction-section li {
     counter-increment: steps;
     display: flex;
     align-items: flex-start;
@@ -98,7 +98,7 @@ body {
     margin-bottom: 16px;
 }
 
-.instruction-step::before {
+.instruction-section li::before {
     content: counter(steps) ".";
     display: flex;
     align-items: center;   
@@ -107,7 +107,7 @@ body {
     margin-right: 8px;
 }
 
-.instruction-step::marker {
+.instruction-section li::marker {
     color: #B94F18;
     font-weight: bold;
 }
