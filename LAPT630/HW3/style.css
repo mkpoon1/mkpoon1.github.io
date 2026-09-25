@@ -37,6 +37,7 @@ body {
 }
 
 .recipe-title {
+    font-family: var(--display-font);
     color: var(--cream);
     font-size: 50px;
   /*  text-decoration: underline; */
