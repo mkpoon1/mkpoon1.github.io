@@ -98,11 +98,12 @@ body {
 
 .instruction-step strong {
    font-size: inherit;
+   font-family: inherit;
    font-weight: bold;
 }
 
 .recipe-footer {
-    background-color: violet;
+    background-color: #885A89;
     text-align: right;
     font-size: 6px;
 }
