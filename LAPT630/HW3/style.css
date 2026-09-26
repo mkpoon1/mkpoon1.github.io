@@ -1,151 +1,101 @@
-/* INTENTIONALLY UGLY STARTER STYLES */
-/* These styles are very, very ugly. */
-/* Time to make them attractive, legible, and usable */
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alice&family=Sacramento&display=swap');
+<!DOCTYPE html>
+<html lang="en">
 
-:root {
-    --purple: #885A89;
-    --terracotta: #B94F18;
-    --cream: #F5F0E8;
-    --teal: #8AA8A1;
-    --brown: #D1B490;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Chip Cookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <main class="recipe-container">
+        <!-- Recipe Header Section -->
+        <header class="recipe-header">
+            <h1 class="recipe-title">Classic Chocolate Chip Cookies</h1>
+            <img src="https://mkpoon1.github.io/LAPT630/HW3/images/cookies.jpg" alt="Golden brown chocolate chip cookies on a cooling rack" class="recipe-image">
+        </header>
 
-    --body-font: "Alice", serif;
-    --display-font: "Sacramento", cursive;
-}
+        <!-- Recipe Meta Information -->
+        <section class="recipe-meta">
+            <p>
+                <strong>Prep Time:</strong> 15 minutes
+            </p>
+            <p>
+                <strong>Cook Time:</strong> 12 minutes
+            </p>
+            <p>
+                <strong>Total Time:</strong> 27 minutes
+            </p>
+            <p>
+                <strong>Servings:</strong> 24 cookies
+            </p>
+            <p>
+                <strong>Difficulty:</strong> Easy
+            </p>
+        </section>
 
-* {
-    box-sizing: border-box;
-}
+        <!-- Recipe Description -->
+        <section class="recipe-description">
+            <p>These classic chocolate chip cookies are crispy on the edges, chewy in the middle, and packed with chocolate chips. Perfect for any occasion, from lunch boxes to holiday gatherings. This foolproof recipe has been tested countless times and always delivers delicious results.</p>
+        </section>
 
-body {
-    font-family: var(--body-font);
-    background-color: var(--cream);
-    margin: 0;
-    min-height: 100vh;
-    padding: var(--space-3);
-    padding: 0;
-}
+        <!-- Ingredients Section -->
+        <section class="ingredients-section">
+            <h2>Ingredients</h2>
+            <ul class = "ingredients-list">
+                <li>2¼ cups all-purpose flour</li>
+                <li>1 teaspoon baking soda</li>
+                <li>1 teaspoon salt</li>
+                <li>1 cup (2 sticks) butter, softened</li>
+                <li>¾ cup granulated sugar</li>
+                <li>¾ cup packed brown sugar</li>
+                <li>2 large eggs</li>
+                <li>2 teaspoons vanilla extract</li>
+                <li>2 cups chocolate chips</li>
+                <li>1 cup chopped walnuts (optional)</li>
+            </ul>
+        </section>
 
-.recipe-container {
-   /* background-color: yellow; */
-    border: 10px solid var(--brown);
-    margin: 10px;
-    padding: 5px;
-}
+        <!-- Instructions Section -->
+        <section class="instructions-section">
+            <h2>Instructions</h2>
+            <ol class="instructions-list">
+                <li> 
+                    <strong>Preheat oven</strong> to 375°F (190°C). Line baking sheets with parchment paper.
+                </li>
+                <li>
+                    <strong>Mix dry ingredients:</strong> In a medium bowl, whisk together flour, baking soda, and salt. Set aside.
+                </li>
+                <li>
+                    <strong>Cream butter and sugars:</strong> In a large bowl, beat softened butter with both sugars until light and fluffy, about 2-3 minutes.
+                </li> 
+                <li> 
+                    <strong>Add eggs and vanilla:</strong> Beat in eggs one at a time, then stir in vanilla extract.
+                </li> 
+                <li>
+                    <strong>Combine wet and dry:</strong> Gradually blend in the flour mixture until just combined. Don't overmix.
+                </li>
+                <li>
+                    <strong>Fold in chocolate chips:</strong> Stir in chocolate chips and nuts (if using).
+                </li>
+                <li>
+                    <strong>Shape and bake:</strong> Drop rounded tablespoons of dough onto prepared baking sheets, spacing 2 inches apart. Bake 9-11 minutes until golden brown.
+                </li>
+                <li>
+                    <strong>Cool:</strong> Let cool on baking sheet for 2 minutes, then transfer to wire rack.
+                </li> 
+            </ol>
+        </section> 
+    </main>
 
-.recipe-header {
-    font-family: var(--display-font);
-    background-color: var(--purple);
-    border: 3px dotted var(--purple);
-    text-align: center;
-}
+    <!-- Recipe Footer -->
+    <footer class="recipe-footer">
+        <p>Recipe adapted from traditional family cookbook | Nutritional info: ~150 calories per cookie</p>
+        <p>Tags: dessert, baking, cookies, chocolate, family-friendly</p>
+    </footer>
 
-.recipe-title {
-    font-family: var(--display-font);
-    color: var(--cream);
-    font-size: 50px;
-  /*  text-decoration: underline; */
-}
 
-.recipe-meta {
-    background-color: var(--cream);
-    color: var(--purple);
-    border: 2px dashed var(--brown);
-}
+</body>
 
-.recipe-meta p {
-    color: var(--terracotta);
-}
-
-.recipe-description {
-    background-color: var(--teal);
-    border: 5px solid var(--brown);
-    font-style: italic;
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-
-.ingredients-section {
-    background-color: var(--brown);
-    border: 5px solid var(--teal);
-    margin-bottom: 25px;
-}
-
-.ingredients-section h2 {
-    color: var(--terracotta);
-    font-family: var(--display-font);
-    font-size: 40px;
-}
-
-.ingredients-list {
-    list-style: none;
-}
-
-.ingredients-list li {
-    background-color: var(--cream);
-    border: 1px solid var(--terracotta);
-    margin: 2px;
-    padding: 1px;
-}
-
-.instructions-section {
-    background-color: var(--teal);
-    border: 5px solid var(--brown);
-}
-
-.instructions-section h2 {
-    color: var(--terracotta);
-    font-family: var(--display-font);
-    font-size: 40px;
-}
-
-.instructions-list {
-    list-style: none;
-    counter-reset: steps;
-    padding: 0;
-}
-
-.instructions-list li {
-    counter-increment: steps;
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    background-color: var(--cream);
-    border: 2px solid var(--purple);
-    margin-bottom: 16px;
-}
-
-.instructions-list li::before {
-    content: counter(steps) ".";
-    display: flex;
-    align-items: center;   
-    justify-content: center;
-    color: var(--terracotta);
-    margin-right: 8px;
-}
-
-.instructions-list li::marker {
-    color: var(--terracotta);
-    font-weight: bold;
-}
-
-.instructions-list strong {
-   font-size: inherit;
-   font-weight: bold;
-}
-
-.recipe-footer {
-    background-color: var(--purple);
-    text-align: right;
-    font-size: 16px;
-    color: var(--cream);
-}
-
-.recipe-image {
-    width: 70px;
-    height: 70px;
-    border: 2px solid black;
-}
-
+</html>
