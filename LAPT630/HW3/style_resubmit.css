@@ -60,6 +60,12 @@ body {
     background-color: var(--purple);
     border: 3px solid var(--brown);
     text-align: center;
+
+    display: flex;
+    flex-direction: column; /* Stacks text and images vertically */
+    align-items: center;    /* Centers everything horizontally */
+    justify-content: center; 
+    padding:var(--space-2);   
 }
 
 .recipe-title {
