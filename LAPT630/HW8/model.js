@@ -1,6 +1,6 @@
 const restaurantModel = {
   restaurants: [
-    { name: "Milano's", cuisine: "Indian", rating: 4.5, priceRange: "$$" },
+    { name: "Milano's", cuisine: "Italian", rating: 4.5, priceRange: "$$" },
     { name: "Sakura Sushi", cuisine: "Japanese", rating: 4.2, priceRange: "$$$" },
     { name: "The Brass Elephant", cuisine: "American", rating: 4.8, priceRange: "$$$" },
     { name: "Pho Corner", cuisine: "Vietnamese", rating: 4.3, priceRange: "$" },
