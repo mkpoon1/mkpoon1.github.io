@@ -1,0 +1,232 @@
+:root {
+  --red: #C8102E;
+  --black: #2C2A29;
+  --gray: #95a0a9;
+  --charcoal: #696a6d;
+  --light-gray: #f5f3f4;
+  --white: white;
+  --yellow: #FFCD00;
+  --plum: #49182d;
+  --slate: #5d87a1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: var(--light-gray);
+}
+
+header {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px;
+  text-align: left;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 80px 20px 64px;
+}
+
+/* --Begin-- Tiles on main page */
+.tile-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+}
+
+.nav-tile {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--red);
+  background-color: var(--white);
+  border: 1px solid var(--red);
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tile-image {
+  width: 200px;
+  height: 220px;
+  object-fit: contain; 
+  padding: 10px;
+  margin: 10px auto;
+ 
+}
+
+.tile-text{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.tile-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  color: var(--red);
+
+}
+
+.tile-description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--black);
+}
+
+/* --End-- Tiles on main page */
+
+/* --Begin-- Visual Navigation */
+.section-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin: 0 24px;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.section-indicator img {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  object-fit: contain;
+}
+/* --End-- Visual Navigation */
+
+
+/* --Begin -- Menu on all pages (except main) */
+.navbar {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  
+  display: flex;
+  gap: 1.25rem;
+  width: min(75%, 450px);
+  padding: 10px;
+
+  background: var(--black);
+  border: 3px solid var(--black);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0 , 0.3);
+}
+
+.nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  justify-content: center;
+
+  padding: 12px 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--white);
+  text-align: center;
+
+  border:2px solid transparent;
+  border-radius: 12px;
+  transition: 
+     background-color 0.2s,
+     color 0.2s,
+     transform 0.2s;
+}
+
+.nav-item img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--white);
+}
+
+/* --End-- Menu on all pages (except main) */
+
+/* --Begin -- School/Admin options */
+.menu-list {
+  display: grid;
+  gap: 10px;
+  flex: 1;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  text-align: left;
+  background: var(--light-gray);
+  color: var(--plum);
+  border: 2px solid var(--charcoal);
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.menu-options img {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 42px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-options:hover {
+  background: var(--slate);
+  color: var(--black);
+  border-color: var(--slate);
+}
+.menu-options:focus-visible,
+.menu-options.selected {
+  background: var(--black);
+  color: var(--yellow);
+  border-color: var(--yellow);
+}
+/* --End-- School/Admin options */
+
+/* --Begin-- Data Steward Information */
+.steward-list{
+  align-self: flex-end;
+  margin-top: 20px;
+  padding: 18px;
+  background: var(--light-gray);
+  border: 2px solid var(--yellow);
+  border-radius: 8px;
+}
+
+.steward-list h2{
+  margin-top: 0 0 8px;  
+  color: var(--red);
+}
+
+@media (max-width: 850px) {
+  .button-container {
+    flex-wrap: wrap;
+  }
+}
+

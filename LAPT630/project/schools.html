@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Access Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Report Access Portal</h1>
+  </header>
+  <div class="section-indicator" aria-label="Current Section: Schools">
+    <img src="images/graduation-hat.png" alt="Graduation Cap">
+    <span>Schools</span>
+  </div>
+  
+  <main>
+    <section id="schoolList" class="menu-list" aria-label="List of Schools"> </section>
+
+    <section id="dataSteward" class="steward-list" aria-live="polite" aria-label="Data Steward">
+      <h2>Data Steward</h2>
+    </section>
+    </main>
+    <nav class="navbar" aria-label="Main Navigation">
+    <a class="nav-item" href="SchoolAccess.html">
+      <img src="images/key-navi.png" alt="Access Key">    
+      <span> Report Access Request</span>
+    </a>
+    <a class="nav-item" href="SchoolUsers.html">
+      <img src="images/users-navi.png" alt="User Permissions">    
+      <span> User Group Permissions</span>
+    </a>
+    <a class="nav-item" href="SchoolAdmin.html">
+      <img src="images/lock-navi.png" alt="Lock Administration">    
+      <span> Group Administration</span>
+    </a>
+  </nav> 
+
+  <script src="schoolReports.js"></script>
+</body>
+</html>
